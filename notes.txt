@@ -1,0 +1,5 @@
+# Nested folder
+npm create vite@latest frontline-frontend -- --template react
+
+# Directly in the folder root
+npm create vite@latest . -- --template react

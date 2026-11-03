@@ -3,3 +3,16 @@ npm create vite@latest frontline-frontend -- --template react
 
 # Directly in the folder root
 npm create vite@latest . -- --template react
+
+
+# Exporting components
+- Default Export: There can only be one default export per file.
+
+=== syntax ===
+(a) export default ComponentName (at the end of the file)
+(b) export default function ComponentName() {}
+
+- Named Export: There can be multiple named export in a file
+
+(a) export {ComponentName} (at the end of the file)
+(b) export function ComponentName() {}

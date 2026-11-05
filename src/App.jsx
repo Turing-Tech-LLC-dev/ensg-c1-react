@@ -1,5 +1,8 @@
+import Banner from "./components/Banner";
+import OrderButton from "./components/OrderButton";
 import ProductCard from "./components/ProductCard";
 import SayHello from "./components/SayHello";
+import WelcomeBanner from "./components/WelcomeBanner";
 
 
 function App() {
@@ -8,6 +11,9 @@ function App() {
     <>
       <SayHello />
       <ProductCard />
+      <WelcomeBanner />
+      <OrderButton />
+      <Banner />
     </>
   )
 }

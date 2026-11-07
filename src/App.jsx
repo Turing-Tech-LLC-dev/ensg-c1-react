@@ -1,4 +1,6 @@
+import AddTwo from "./components/AddTwo";
 import Banner from "./components/Banner";
+import Intro from "./components/Intro";
 import OrderButton from "./components/OrderButton";
 import ProductCard from "./components/ProductCard";
 import SayHello from "./components/SayHello";
@@ -14,6 +16,8 @@ function App() {
       <WelcomeBanner />
       <OrderButton />
       <Banner />
+      <Intro />
+      <AddTwo />
     </>
   )
 }

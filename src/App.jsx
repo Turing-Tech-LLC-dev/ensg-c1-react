@@ -1,5 +1,6 @@
 import AddTwo from "./components/AddTwo";
 import Banner from "./components/Banner";
+import CourseList from "./components/CourseList";
 import Intro from "./components/Intro";
 import OrderButton from "./components/OrderButton";
 import ProductCard from "./components/ProductCard";
@@ -25,6 +26,8 @@ function App() {
 
         <ProductList />
       </div>
+
+      <CourseList />
     </>
   )
 }

@@ -1,4 +1,5 @@
-function CourseCard({Icon, title, price}) {
+function CourseCard({icon: Icon, title, price}) {
+    // const Icon = icon;
     return (
         <div className="flex flex-col gap-4 border border-black/30 shadow-lg py-8 px-6 rounded-3xl bg-blue-200">
             <span><Icon /></span>

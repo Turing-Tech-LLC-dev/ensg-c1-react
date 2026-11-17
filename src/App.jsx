@@ -1,6 +1,8 @@
 import AddTwo from "./components/AddTwo";
 import Banner from "./components/Banner";
+import ContactForm from "./components/ContactForm";
 import Container from "./components/Container";
+import Counter from "./components/Counter";
 import CourseList from "./components/CourseList";
 import Intro from "./components/Intro";
 import OrderButton from "./components/OrderButton";
@@ -9,6 +11,7 @@ import ProductList from "./components/ProductList";
 import SayHello from "./components/SayHello";
 import TaskList from "./components/TaskList";
 import WelcomeBanner from "./components/WelcomeBanner";
+import WelcomeMessage from "./components/WelcomeMessage";
 
 
 function App() {
@@ -32,6 +35,9 @@ function App() {
 
         <CourseList />
         <TaskList />
+        <WelcomeMessage />
+        <ContactForm />
+        <Counter />
       </Container>
     </>
   )

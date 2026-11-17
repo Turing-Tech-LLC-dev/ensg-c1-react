@@ -8,19 +8,19 @@ const courses = [
     {
         id: 1,
         title: "Frontend",
-        Icon: TabletSmartphone,
+        icon: TabletSmartphone,
         price: "$100"
     },
     {
         id: 2,
         title: "Backend",
-        Icon: Server,
+        icon: Server,
         price: "$150"
     },
     {
         id: 3,
         title: "Database Management",
-        Icon: Database,
+        icon: Database,
         price: "$100"
     },
 ];

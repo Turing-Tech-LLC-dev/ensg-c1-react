@@ -6,6 +6,7 @@ import Counter from "./components/Counter";
 import CourseList from "./components/CourseList";
 import Intro from "./components/Intro";
 import OrderButton from "./components/OrderButton";
+import PasswordInput from "./components/PasswordInput";
 import ProductCard from "./components/ProductCard";
 import ProductList from "./components/ProductList";
 import SayHello from "./components/SayHello";
@@ -20,6 +21,7 @@ function App() {
     <>
       <Container>
         <SayHello />
+        <PasswordInput />
         <ProductCard />
         <WelcomeBanner />
         <WelcomeBanner />

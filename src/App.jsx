@@ -4,7 +4,9 @@ import ContactForm from "./components/ContactForm";
 import Container from "./components/Container";
 import Counter from "./components/Counter";
 import CourseList from "./components/CourseList";
+import Header from "./components/Header";
 import Intro from "./components/Intro";
+import Login from "./components/Login";
 import OrderButton from "./components/OrderButton";
 import PasswordInput from "./components/PasswordInput";
 import ProductCard from "./components/ProductCard";
@@ -20,6 +22,8 @@ function App() {
   return (
     <>
       <Container>
+        <Header />
+        <Login />
         <SayHello />
         <PasswordInput />
         <ProductCard />

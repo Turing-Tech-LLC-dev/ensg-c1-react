@@ -4,12 +4,8 @@ function BookingForm() {
     const [fullName, setFullName] = useState("");
     const [email, setEmail] = useState("");
 
-    function handleFullNameChange(event) {
-        setFullName(event.target.value);
-    }
-
-    function handleEmailChange(event) {
-        setEmail(event.target.value);
+    function handleChange(setFn, value) {
+        setFn(value);
     }
 
     return (
@@ -22,7 +18,7 @@ function BookingForm() {
                     placeholder="Enter your full name" 
                     className="input"
                     value={fullName}
-                    onChange={handleFullNameChange}
+                    onChange={(e) => handleChange(setFullName, e.target.value)}
                 />
 
                 <input 
@@ -30,7 +26,7 @@ function BookingForm() {
                     placeholder="Enter your email"
                     className="input"
                     value={email}
-                    onChange={handleEmailChange}
+                    onChange={(e) => handleChange(setEmail, e.target.value)}
                 />
             </form>
         </div>

@@ -1,5 +1,7 @@
 import AddTwo from "./components/AddTwo";
+import AddProductForm from "./components/AddProductForm";
 import Banner from "./components/Banner";
+import BookingForm from "./components/BookingForm";
 import ContactForm from "./components/ContactForm";
 import Container from "./components/Container";
 import Counter from "./components/Counter";
@@ -24,6 +26,8 @@ function App() {
       <Container>
         <Header />
         <Login />
+        <BookingForm />
+        <AddProductForm />
         <SayHello />
         <PasswordInput />
         <ProductCard />

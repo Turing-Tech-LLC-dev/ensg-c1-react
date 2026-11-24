@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.input {
+    @apply h-10 border border-black/50 px-3 rounded
+}

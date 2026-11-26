@@ -1,9 +1,21 @@
 import { Minus, Plus } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 function Counter() {
     const [count, setCount] = useState(0);
+
+    useEffect(() => {
+        if (count === 0) {
+            console.log("Count component just rendered");
+        }
+
+        if (count > 5) {
+            console.log("Count is above 5");
+        }
+
+        console.log("Count component just re-rendered.");
+    }, [count]);
 
     function increaseCount() {
         setCount(prevCount => prevCount + 1);

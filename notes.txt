@@ -16,3 +16,16 @@ npm create vite@latest . -- --template react
 
 (a) export {ComponentName} (at the end of the file)
 (b) export function ComponentName() {}
+
+
+========= What is React? ===========
+JavaScript library for building UI.
+
+# Lifecycle of a React functional component:
+- Mount Phase (component is rendered)
+- Update Phase (The component is re-rendered)
+- Unmount Phase (Component is removed from UI)
+
+
+## useEffect is a React Hook for handling side effects in a React app.
+

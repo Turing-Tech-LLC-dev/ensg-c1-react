@@ -19,6 +19,8 @@ import SayHello from "./components/SayHello";
 import TaskList from "./components/TaskList";
 import WelcomeBanner from "./components/WelcomeBanner";
 import WelcomeMessage from "./components/WelcomeMessage";
+import Features from "./components/Features";
+import StoreList from "./components/StoreList";
 
 
 function App() {
@@ -35,6 +37,7 @@ function App() {
         <SayHello />
         <PasswordInput />
         <ProductCard />
+        <Features />
         <WelcomeBanner />
         <WelcomeBanner />
         <OrderButton />
@@ -48,6 +51,7 @@ function App() {
         </div>
 
         <CourseList />
+        <StoreList />
         <TaskList />
         <WelcomeMessage />
         <ContactForm />
